@@ -88,7 +88,7 @@
             <div class="header-content">
                 <h2>Hi, I'm Riley Cambon</h2>
                 <h5>EE graduate and electronics enthusiast</h5>
-                <p>I'm a recent electrical engineering graduate from the University of Victoria. I have passion for electronics design and product development and hope to bring my talents to a hardware development team. Through the school’s co-op program, I have gained valuable experience in Electronics design at companies such as Avigilon. Working with the UVic AERO team, I had access to professional tools such as Altium designer which allowed me to develop my professional design skills. I have also worked in electrical consulting where I learned how to effectively work with clients and suppliers. In my spare time I am always working on electronics projects and trying to come up with new ideas, or trying to further my education by reading textbooks on electronics design.
+                <p>I'm a recent electrical engineering graduate from the University of Victoria. I have a passion for electronics design and product development and hope to bring my talents to a hardware development team in the near future. Through the school’s co-op program, I have gained valuable experience in Electronics design. Working with the UVic AERO team, I had access to professional tools such as Altium designer which allowed me to further develop my design skills. I have also worked in electrical consulting where I learned how to effectively work with clients and suppliers. In my spare time I am always brainstorming new electronics projects or trying to further my education by reading books on electronics design.
                 </p>
             </div>
         </header>
@@ -119,12 +119,12 @@
                                 <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
                                 </div>
                             </div><!-- / progress -->
-
-                            <h6 class="progress-title">Electronics Testing</h6>
+                            <h6 class="progress-title">Design for EMC</h6>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                                 </div>
                             </div><!-- / progress -->
+
                         </div>
                         <!-- / progress-bars left -->
 
@@ -136,11 +136,13 @@
                                 </div>
                             </div><!-- / progress -->
 
-                            <h6 class="progress-title">Design for EMC</h6>
+                            <h6 class="progress-title">Electronics Testing</h6>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
                                 </div>
                             </div><!-- / progress -->
+
+
 
                             <h6 class="progress-title">High-speed digital design</h6>
                             <div class="progress">
@@ -180,15 +182,16 @@
 
                         <!-- progress-bars right -->
                         <div class="col-sm-6">
-                            <h6 class="progress-title">C++</h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-                                </div>
-                            </div><!-- / progress -->
-
+                            
                             <h6 class="progress-title">MATLAB</h6>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">C++</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
                                 </div>
                             </div><!-- / progress -->
 
@@ -310,7 +313,7 @@
                             </div><!-- / timeline-info -->
                             <div class="col-md-9 timeline-details">
                                 <p>
-                                CWA Engineers Inc. is a multi-disciplinary engineering and project management company working primarily with industrial infrastructure. I performed electrical design for power distribution systems and controls, prepared electrical drawings with AutoCAD and used excel to optimize equipment inspection efficiency.
+                                CWA Engineers Inc. is a multi-disciplinary engineering and project management company working primarily with industrial infrastructure. I performed electrical design for power distribution systems and controls, prepared electrical drawings with AutoCAD, and used excel to optimize equipment inspection efficiency.
                                 </p>
                             </div><!-- / timeline-details -->
                         </div><!-- / row -->
@@ -327,12 +330,24 @@
                 <div class="page-header space-left">
                     <h3>Portfolio<span class="text-primary">.</span></h3>
                 </div>
-                <ul class="portfolio-filter list-inline space-left">
-                    <li><a href="#" data-group="all" class="active">All</a></li>
-                    <li><a href="#" data-group="Personal">Design</a></li>
-                    <li><a href="#" data-group="School">Creative</a></li>
-                </ul><!--end portfolio filter -->
+
                 <ul class="row portfolio list-unstyled" id="grid">
+                    <li class="col-xs-6 col-md-4 project" data-groups='["Personal"]'>
+                        <figure>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/LoRa.jpg" alt="">
+                                
+                                    <div class="overlay">
+                                        <div class="hovereffect-title">
+                                            <h6>Bike theft detection system (IN PROGRESS)</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </figure>
+                    </li>
+
+
                     <li class="col-xs-6 col-md-4 project" data-groups='["Personal"]'>
                         <figure>
                             <div class="hovereffect">
@@ -355,7 +370,7 @@
                                 <a href="GuitarPedal.html">
                                     <div class="overlay">
                                         <div class="hovereffect-title">
-                                            <h6>DSP Guitar Pedal</h6>
+                                            <h6>DSP guitar pedal platform</h6>
                                         </div>
                                     </div>
                                 </a>
@@ -370,7 +385,7 @@
                                 <a href="FallSafe.html">
                                     <div class="overlay">
                                         <div class="hovereffect-title">
-                                            <h6>FallSafe  - A Doppler radar based fall detection device</h6>
+                                            <h6>FallSafe  - Doppler radar based fall detection device</h6>
                                         </div>
                                     </div>
                                 </a>
@@ -400,7 +415,7 @@
                                 <a href="Fiberlight.html">
                                     <div class="overlay">
                                         <div class="hovereffect-title">
-                                            <h6>FiberLight - Fiber optic bicycle illumination device</h6>
+                                            <h6>FiberLight - Fiber optic bicycle illumination</h6>
                                         </div>
                                     </div>
                                 </a>
@@ -491,7 +506,7 @@
 
         <footer>
             <div class="container">
-                <p class="footer-info">© 2018 - <strong>Riley Cambon</strong>
+                <p class="footer-info">© 2019 - <strong>Riley Cambon</strong>
                 </p>
             </div><!-- / container -->
         </footer><!-- / light-footer -->
