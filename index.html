@@ -1,46 +1,576 @@
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-    height: 100%;
-    margin: 0;
-}
+<html lang="en">
 
+<head>
 
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="MyWork Resume">
+<meta name="keywords" content="resume bootstrap template, resume / cv html template, html5 / css3 resume" />
+<meta name="author" content="KingStudio.ro">
 
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
+<!-- favicon -->
+<link rel="icon" href="images/favicon_1.png">
+<!-- page title -->
+<title>Riley Cambon</title>
+<!-- bootstrap css -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- css -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='fonts/FontAwesome.otf' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/linear-icons.css">
 
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 
-hr {
-    margin: auto;
-    width: 40%;
-}
-</style>
-<body>
+</head>
 
-<div class="bgimg">
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p>35 days left</p>
-  </div>
+<body class="main-demo">
+
+<!-- wrapper -->
+<div id="wrapper">
+
+<!-- side navigation -->
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a href="#"><img src="images/my-img.png" alt=""></a>
+        </li>
+        <li class="active">
+            <a class="menu-item page-scroll" href="#home">Home</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#skills">Skills</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#education">Education</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#experience">Experience</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a class="menu-item page-scroll" href="#contact">Contact</a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/rileycambon/" class= "fa fa-linkedin"><a/>
+        </li>
+        <li class="menu-footer">
+             <p class="space-bottom">
+                    <button type="button" class="btn btn-lg btn-primary-filled" value="Input Button" onclick="location.href = 'docs/RileyCambon_Resume2018.pdf';"><i class="lnr lnr-download"></i><span>Download CV</span></button>
+        </li>
+    </ul>
 </div>
+<!-- / side navigation -->
 
+
+<!-- content -->
+<div id="page-content-wrapper" class="header">
+    <div class="container-fluid">
+        <!-- header -->
+        <div id="top" data-toggle="top"></div>
+        <a href="#menu-toggle" id="menu-toggle"><i class="lnr lnr-menu"></i></a>
+        <header id="home">
+            <div class="header-content">
+                <h2>Hi, I'm Riley Cambon</h2>
+                <h5>EE graduate and electronics enthusiast</h5>
+                <p>I'm a recent electrical engineering graduate from the University of Victoria. I have passion for electronics design and product development and hope to bring my talents to a hardware development team. Through the school’s co-op program, I have gained valuable experience in Electronics design at companies such as Avigilon. Working with the UVic AERO team, I had access to professional tools such as Altium designer which allowed me to develop my professional design skills. I have also worked in electrical consulting where I learned how to effectively work with clients and suppliers. In my spare time I am always working on electronics projects and trying to come up with new ideas, or trying to further my education by reading textbooks on electronics design.
+                </p>
+            </div>
+        </header>
+        <!-- / header -->
+
+        <!-- about -->
+        <section id="about">
+            <div class="container">
+                <!-- skills -->
+                <div id="skills">
+                    <div class="page-header space-left">
+                        <h3>Skills<span class="text-primary">.</span></h3>
+                    </div>
+                    <div class="page-header space-left">
+                        <h5>Hardware<span class="text-primary">.</span></h5>
+                    </div>                    
+                    <div class="row">
+                        <!-- progress-bars left -->
+                        <div class="col-sm-6">
+                            <h6 class="progress-title">PCB design</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">Altium Designer</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">Electronics Testing</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                </div>
+                            </div><!-- / progress -->
+                        </div>
+                        <!-- / progress-bars left -->
+
+                        <!-- progress-bars right -->
+                        <div class="col-sm-6">
+                            <h6 class="progress-title">Soldering</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">Design for EMC</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">High-speed digital design</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                </div>
+                            </div><!-- / progress -->
+                        </div>
+                        <!-- / progress-bars right -->
+
+                    </div><!-- / row -->
+                    <div class="page-header space-left">
+                        <h5>Software<span class="text-primary">.</span></h5>
+                    </div>                    
+                    <div class="row">
+                        <!-- progress-bars left -->
+                        <div class="col-sm-6">
+                            <h6 class="progress-title">C</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">Embedded C</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                </div>
+                            </div><!-- / progress -->
+
+
+                            <h6 class="progress-title">Python</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                </div>
+                            </div><!-- / progress -->
+                        </div>
+                        <!-- / progress-bars left -->
+
+                        <!-- progress-bars right -->
+                        <div class="col-sm-6">
+                            <h6 class="progress-title">C++</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">MATLAB</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                </div>
+                            </div><!-- / progress -->
+
+                            <h6 class="progress-title">VHDL</h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-primary animated fadeInLeft" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                </div>
+                            </div><!-- / progress -->                            
+                        </div>
+                        <!-- / progress-bars right -->
+                        
+                    </div><!-- / row -->
+                </div>
+                <!-- / skills -->
+            </div><!-- / container -->
+        </section>
+        <!-- / about -->
+
+        <!-- education -->
+        <section id="education">
+            <div class="container">
+                <div class="page-header">
+                    <h3>Education<span class="text-primary">.</span></h3>
+                </div>
+                <div class="timeline  border-color">
+
+                    <div class="timeline-item">
+                        <div class="timeline-point  off-timeline-point  point-color"></div>
+                        <div class="row">
+                            <div class="col-md-3 timeline-info">
+                                <p class="timeline-date">Sept. 2013- May 2019</p>
+                                <h4 class="timeline-com">University of Victoria</h4>
+                                <h6 class="timeline-role">Electrical Engineering</h6>
+                                <p class="timeline-location">Victoria, BC</p>
+                            </div><!-- / timeline-info -->
+                            <div class="col-md-9 timeline-details">
+                                <p>
+                                Electrical engineering degree with a specialization in electronics.
+                                </p>
+                            </div><!-- / timeline-details -->
+                        </div><!-- / row -->
+                    </div><!-- / timeline-item -->
+
+                    
+
+                </div><!-- / timeline -->
+            </div><!-- / container -->
+        </section>
+        <!-- / education -->
+
+        <!-- experience -->
+        <section id="experience">
+            <div class="container">
+                <div class="page-header">
+                    <h3>Experience<span class="text-primary">.</span></h3>
+                </div>
+                <div class="timeline  border-color">
+
+                    <div class="timeline-item">
+                        <div class="timeline-point  off-timeline-point  point-color"></div>
+                        <div class="row">
+                            <div class="col-md-3 timeline-info">
+                                <p class="timeline-date">May 2017-Dec 2017</p>
+                                <h4 class="timeline-com">Avigilon</h4>
+                                <h6 class="timeline-role">Electrical Designer Co-op</h6>
+                                <p class="timeline-location">Vancouver, BC</p>
+                            </div><!-- / timeline-info -->
+                            <div class="col-md-9 timeline-details">
+                                <p>
+                             Avigilon designs and manufactures security equipment such as surveillance cameras and access control solutions. I Worked with the electrical hardware team bringing new products to market. While at Avigilon, I Worked on circuit design and PCB layout using Altium Designer, performed circuit debugging and high-speed signal integrity testing, and conducted product verification and troubleshooting for EMC compliance. I also performed electrical modifications to prototypes and assisted with thermal testing.
+
+                                </p>
+                            </div><!-- / timeline-details -->
+                        </div><!-- / row -->
+                    </div><!-- / timeline-item -->
+
+                    <div class="timeline-item">
+                        <div class="timeline-point  off-timeline-point  point-color"></div>
+                        <div class="row">
+                            <div class="col-md-3 timeline-info">
+                                <p class="timeline-date">May 2016-Aug 2016</p>
+                                <h4 class="timeline-com">PBX Engineering</h4>
+                                <h6 class="timeline-role">Co-op Design Engineer</h6>
+                                <p class="timeline-location">Victoria, BC</p>
+                            </div><!-- / timeline-info -->
+                            <div class="col-md-9 timeline-details">
+                                <p>
+                                PBX Engineering Ltd. is a professional consulting firm specializing in electrical and systems engineering. While here, I Assisted with control systems coordination and planning, created quality management documents for drawing submissions, and used PDF markup tools and Excel for design and data management. 
+                                </p>
+                            </div><!-- / timeline-details -->
+                        </div><!-- / row -->
+                    </div><!-- / timeline-item -->
+
+                    <div class="timeline-item">
+                        <div class="timeline-point  off-timeline-point  point-color"></div>
+                        <div class="row">
+                            <div class="col-md-3 timeline-info">
+                                <p class="timeline-date">Sep 2015-Dec 2015</p>
+                                <h4 class="timeline-com">Roy Campbell Ltd.</h4>
+                                <h6 class="timeline-role">Electrical Designer/CAD Operator</h6>
+                                <p class="timeline-location">Vancouver, BC</p>
+                            </div><!-- / timeline-info -->
+                            <div class="col-md-9 timeline-details">
+                                <p>
+                                Roy Campbell Ltd. is electrical engineering consulting company working on commercial installations such as data centers. During this time, I designed electrical power distribution systems for a variety of commercial projects, performed lighting simulations using AGI32, assisted with project coordination and created electrical schematics and diagrams using AutoCAD.
+                                </p>
+                            </div><!-- / timeline-details -->
+                        </div><!-- / row -->
+                    </div><!-- / timeline-item -->
+
+                    <div class="timeline-item">
+                        <div class="timeline-point  off-timeline-point  point-color"></div>
+                        <div class="row">
+                            <div class="col-md-3 timeline-info">
+                                <p class="timeline-date">Jan 2015 - Apr 2015</p>
+                                <h4 class="timeline-com">CWA Engineers Inc.</h4>
+                                <h6 class="timeline-role">Junior Electrical Engineer</h6>
+                                <p class="timeline-location">Vancouver, BC</p>
+                            </div><!-- / timeline-info -->
+                            <div class="col-md-9 timeline-details">
+                                <p>
+                                CWA Engineers Inc. is a multi-disciplinary engineering and project management company working primarily with industrial infrastructure. I performed electrical design for power distribution systems and controls, prepared electrical drawings with AutoCAD and used excel to optimize equipment inspection efficiency.
+                                </p>
+                            </div><!-- / timeline-details -->
+                        </div><!-- / row -->
+                    </div><!-- / timeline-item -->
+
+                </div><!-- / timeline -->
+            </div><!-- / container -->
+        </section>
+        <!-- / experience -->
+
+        <!-- portfolio section 3col -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="page-header space-left">
+                    <h3>Portfolio<span class="text-primary">.</span></h3>
+                </div>
+                <ul class="portfolio-filter list-inline space-left">
+                    <li><a href="#" data-group="all" class="active">All</a></li>
+                    <li><a href="#" data-group="Personal">Design</a></li>
+                    <li><a href="#" data-group="School">Creative</a></li>
+                </ul><!--end portfolio filter -->
+                <ul class="row portfolio list-unstyled" id="grid">
+                    <li class="col-xs-6 col-md-4 project" data-groups='["Personal"]'>
+                        <figure>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/signalight_front.jpg" alt="">
+                                <a href="Signalight.html">
+                                    <div class="overlay">
+                                        <div class="hovereffect-title">
+                                            <h6>Signalight - Hand signal illumination device</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </figure>
+                    </li><!-- project -->
+
+                    <li class="col-xs-6 col-md-4 project" data-groups='["photography", "creative"]'>
+                        <figure>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/GuitarPedal_front.jpg" alt="">
+                                <a href="GuitarPedal.html">
+                                    <div class="overlay">
+                                        <div class="hovereffect-title">
+                                            <h6>DSP Guitar Pedal</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </figure>
+                    </li><!-- project -->
+
+                    <li class="col-xs-6 col-md-4 project" data-groups='["photography"]'>
+                        <figure>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/FallSafe_doppler.jpg" alt="">
+                                <a href="FallSafe.html">
+                                    <div class="overlay">
+                                        <div class="hovereffect-title">
+                                            <h6>FallSafe  - A Doppler radar based fall detection device</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </figure>
+                    </li><!-- project -->
+
+                    <li class="col-xs-6 col-md-4 project" data-groups='["design"]'>
+                        <figure>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/basys3.jpg" alt="">
+                                <a href="CORDIC.html">
+                                    <div class="overlay">
+                                        <div class="hovereffect-title">
+                                            <h6>CORDIC algorithm implemented in VHDL</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </figure>
+                    </li><!-- project -->
+
+                    <li class="col-xs-6 col-md-4 project" data-groups='["design"]'>
+                        <figure>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/FiberLight_back.jpg" alt="">
+                                <a href="fiberlight.html">
+                                    <div class="overlay">
+                                        <div class="hovereffect-title">
+                                            <h6>FiberLight - Fiber optic bicycle illumination device</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </figure>
+                    </li><!-- project -->
+
+                    <li class="col-xs-6 col-md-4 project" data-groups='["web-design", "creative"]'>
+                        <figure>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/HelmetLight_front.jpg" alt="">
+                                <a href="HelmetLight.html">
+                                    <div class="overlay">
+                                        <div class="hovereffect-title">
+                                            <h6>HelmetLight - LED strip helmet illumination board</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </figure>
+                    </li><!-- project -->
+
+                    <li class="col-xs-6 col-md-4 project" data-groups='["web-design"]'>
+                        <figure>
+                            <div class="hovereffect">
+                                <img class="img-responsive" src="images/GloveGlow_front.jpg" alt="">
+                                <a href="GloveGlow.html">
+                                    <div class="overlay">
+                                        <div class="hovereffect-title">
+                                            <h6>GloveGlow - Fiber optic glove illumination</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </figure>
+                    </li><!-- project -->
+
+                    <!-- sizer -->
+                    <li class="col-xs-6 col-md-4 shuffle_sizer"></li>
+                </ul><!-- / row portfolio-items -->
+            </div><!-- / container -->
+        </section>
+        <!-- / portfolio section 3col -->
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="page-header space-left">
+                    <h3>Contact<span class="text-primary">.</span></h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 space-bottom">
+                        <div class="contact-description">
+                            <p>Please let me know if you have any questions. If you feel that I may be a good fit for your engineering team, you can contact me by phone or email. References are available upon request. </p>
+                        </div><!-- / feature-description -->
+
+                        <div class="space-25">&nbsp;</div>
+
+                        <div class="row">
+                            <div class="col-sm-6 feature-left space-top">
+                                <div class="feature block">
+                                    <div class="feature-icon">
+                                        <i class="lnr lnr-phone"></i>
+                                    </div>
+                                    <h5>Telephone</h5>
+                                    <a href="tel:+0123456789">778 938 6517</a>
+                                </div><!-- / feature-block -->
+                            </div><!-- / col-md-6 feature-left -->
+
+                            <div class="col-sm-6 feature-left space-top">
+                                <div class="feature block">
+                                    <div class="feature-icon">
+                                        <i class="lnr lnr-envelope"></i>
+                                    </div>
+                                    <h5>Email</h5>
+                                    <a href="mailto:riley.cambon@gmail.com" class="contact-info-text">riley.cambon@gmail.com</a>
+                                </div><!-- / feature-block -->
+                            </div><!-- / col-md-6 feature-left -->
+                        </div><!-- / row -->
+                
+                    </div><!-- / col-md-6 -->
+
+
+                </div><!-- / row -->
+            </div><!-- / container -->
+        </section>
+        <!-- / contact -->
+
+        <footer>
+            <div class="container">
+                <p class="footer-info">© 2018 - <strong>Riley Cambon</strong>
+                </p>
+            </div><!-- / container -->
+        </footer><!-- / light-footer -->
+
+        <!-- scroll to top -->
+        <a href="#top" class="scroll-to-top page-scroll is-hidden" data-nav-status="toggle"><i class="fa fa-angle-up"></i></a>
+        <!-- / scroll to top -->
+
+
+    </div><!-- / container-fluid -->
+</div><!-- / page-content-wrapper -->
+
+</div><!-- / wrapper -->
+
+<!-- javascript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- menu toggle script -->
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+<!-- / menu toggle script -->
+
+<!-- nav scroll -->
+<script src="js/scrolling-nav.js"></script>
+<script>
+$(".sidebar-nav a").on("click", function(){
+   $(".sidebar-nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+</script>
+<!-- / nav scroll -->
+
+<!-- contact form -->
+<script src="js/validator.min.js" type="text/javascript"></script>
+<script src="js/form-scripts.js" type="text/javascript"></script>
+<!-- / contact form -->
+
+<!-- facts counter -->
+<script src="js/jquery.countTo.js"></script>
+ <script type="text/javascript">
+      $('.timer').countTo({
+        refreshInterval: 60,
+        formatter: function (value, options) {
+          return value.toFixed(options.decimals);
+        },
+      });
+</script>
+<!-- / facts counter -->
+
+<!-- portfolio script -->
+<script src="js/jquery.shuffle.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- / portfolio script -->
+
+<!-- posts carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function() {
+      $("#posts-carousel").owlCarousel({
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+      });
+
+    });
+</script>
+<!-- / posts carousel -->
+
+<!-- hide nav -->
+<script src="js/hide-nav.js"></script>
+<!-- / hide nav -->
+
+<!-- / javascript -->
 </body>
+
 </html>

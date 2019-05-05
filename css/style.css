@@ -19,7 +19,7 @@ h2 {
 
 h3 {
   font-size: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 h4 {
@@ -102,7 +102,7 @@ ol li {
 }
 
 li {
-  color: #666666;
+  color: #000000;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.5px;
@@ -155,11 +155,11 @@ strong {
 }
 
 .text-default {
-  color: #333333;
+  color: #000000;
 }
 
 .text-primary {
-  color: #0082d6;
+  color: #000000;
 }
 
 .text-success {
@@ -217,7 +217,7 @@ strong {
 /* / End Typography */
 /* Base CSS */
 body {
-  color: #666666;
+  color: #000000;
   background: #fefefe;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -1351,11 +1351,11 @@ input:focus {
 }
 
 .main-demo .sidebar-nav li.active a {
-  color: #0082d6;
+  color: white;
 }
 
 .main-demo .sidebar-nav li.active a:hover {
-  color: #0266a7;
+  color: #0082D6;
 }
 
 .main-demo .sidebar-nav a.menu-item {
@@ -1363,7 +1363,7 @@ input:focus {
 }
 
 .main-demo .sidebar-nav a:hover {
-  color: #0266a7;
+  color: #0082D6;
 }
 
 .main-demo .menu-footer h6 {
@@ -2351,4 +2351,23 @@ footer .container {
   #portfolio .col-xs-6 {
     width: 100%;
   }
+}
+
+.carousel .item img {
+  max-height: 600px;
+  max-width: 600px;
+  min-width: auto;
+  min-height: auto;
+}
+
+#myCarousel {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.embed-responsive-item {
+  max-width: 800px;
+  max-height: 450px;
+  min-width: auto;
+  min-height: auto;
 }
